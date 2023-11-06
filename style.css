@@ -744,7 +744,8 @@ footer{
     }
     .project-content-left {
         width: 100%;
-        margin-left: -250px;
+        margin-left: -265px;
+        background-size: cover;
     }
     .project-content-right{
         width: 100%;
@@ -759,16 +760,20 @@ footer{
     #project1 .project-content-right{
         width: 100%;
         left: -3%;
+        background-size: cover;
     }
     #project2 {
         margin-left: 0;
+        background-size: cover;
     }
     #project4 {
         margin-left: 0;
+        background-size: contain;
+        
     }
     #project5 .project-content-right{
         width: 100%;
-        left: -8%;
+        left: -18%;
     }
 
     #project6{
