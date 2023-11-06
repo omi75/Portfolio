@@ -377,8 +377,7 @@ nav{
     bottom: 20%;
     z-index: 5;
     gap: 1em;
-    transition:all 0.4s ;
-    
+    transition:all 0.4s ; 
 }
 .project-content:hover{
     transform: scale(1.1);
@@ -719,11 +718,11 @@ footer{
     }
     .project-container {
         padding: 5px;
-        margin: 10px;
         gap: 60px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 50%;
     }
     .project-card {
         width: 100%;
@@ -742,9 +741,14 @@ footer{
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
+        width: 100%;
     }
     .project-content-left {
-        left: 0;
+        width: 100%;
+        margin-left: -250px;
+    }
+    .project-content-right{
+        width: 100%;
     }
     .pro-heading {
         font-size: 40px;
@@ -753,17 +757,33 @@ footer{
     .sub-heading {
         width: 100%;
     }
+    #project1 .project-content-right{
+        width: 100%;
+        left: -3%;
+    }
     #project2 {
         margin-left: 0;
     }
     #project4 {
         margin-left: 0;
     }
-    .project-skill-container {
+    #project5 .project-content-right{
         width: 100%;
+        left: -8%;
+    }
+
+    #project6{
+        margin-left: 0px;
+     }
+    .project-skills-container {
+        width: 100%;
+        justify-content: end;
     }
     .project-skill {
         width: 35px;
+    }
+    .btn-grp{
+        justify-content: center;
     }
 }
 
@@ -843,5 +863,3 @@ footer{
     width: 90%;
   }
 }
-
-  
