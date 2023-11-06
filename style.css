@@ -722,13 +722,12 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 50%;
-    }
-    .project-card {
         width: 100%;
-        height: 300px;
     }
     .project-card {
+        width: 95%;
+        height: 250px;
+        margin: 0 auto;
         background-size: cover;
         background-position: center;
     }
@@ -739,7 +738,7 @@ footer{
         right: 0;
         top: 0;
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: column;
         justify-content: center;
         width: 100%;
     }
@@ -863,3 +862,5 @@ footer{
     width: 90%;
   }
 }
+
+  
